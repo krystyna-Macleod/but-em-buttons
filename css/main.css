@@ -18,3 +18,11 @@ html {
   color: #b4fff4;
   padding: 1em;
 }
+
+.btn:hover,
+.btn:focus {
+  background-color: rgba(180, 255, 244, .2);
+  border-color: #90ccc3;
+  color: #b4fff4;
+  transition: all 250ms ease;
+}
