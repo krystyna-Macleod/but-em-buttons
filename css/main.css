@@ -26,3 +26,25 @@ html {
   color: #b4fff4;
   transition: all 250ms ease;
 }
+
+.icon {
+  bottom: .25em;
+}
+
+.icon,
+.btn {
+  transition: all 250ms ease;
+}
+
+.btn:active {
+  top: 1em;
+  transform: translate(0, .25em);
+}
+
+.btn-ghost {
+  transition: all 250ms ease;
+}
+
+.btn-ghost:hover .icon {
+  transform: translate(0, -.5em);
+}
